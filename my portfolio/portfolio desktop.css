@@ -1,0 +1,200 @@
+/* for desktop */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/* navbar design starts here */
+
+.nav-heading{
+
+    padding: 40px 0 20px 40px;
+
+}
+
+.nav-links{
+
+    padding: 45px 40px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-links a{
+
+    display: inline;
+    background-color: #3fbfd9;
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+.nav-links a:hover{
+
+    background-color: #3fbfd9;
+    color: gray;
+
+}
+
+/* navbar design ends here */
+
+/* navbar description design starts here */
+
+/* upper-img design starts here */
+
+.nav-desc .upper-img{
+
+    right: 100px;
+
+}
+
+.upper-img img{
+
+    width: 200px;
+    transition: transform 3s;
+
+}
+
+.upper-img img:hover{
+
+    transform: rotate(360deg);
+
+}
+
+/* upper-img design ends here */
+
+/* my title design starts here */
+
+.my-title{
+
+    text-align: center; 
+    margin: 300px auto 20px auto;
+    font-size: 2rem;
+  
+  }
+  
+/* my title design starts here */
+
+/* description design starts here */
+
+.description{
+
+    font-size: 1.5rem;
+
+}
+
+/* description design ends here */
+
+/* lower-img design starts here */
+
+.nav-desc .lower-img{
+
+    margin-left: 100px;
+
+}
+
+.lower-img img{
+
+    width: 200px;
+    transition: transform 3s;
+
+}
+
+.lower-img img:hover{
+
+    transform: rotate(360deg);
+
+}
+
+/* lower-img design ends here */
+
+/* navbar description design ends here */
+
+/* tutorial design starts here */
+
+.tutorials-img img{
+
+    width: 350px;
+    height: 300px;
+    display: block;
+
+}    
+
+.img1 div{
+
+    left: 15px;
+    width: 350px;
+
+}
+
+.img2 div{
+
+    left: 15px;
+    width: 350px;
+
+}
+
+.img3 div{
+
+    left: 15px;
+    width: 350px;
+
+}
+
+.img4 div{
+
+    left: 15px;
+    width: 350px;
+
+}
+
+/* tutorial design ends here */
+
+/* about me design starts here */
+
+.my-photo img{
+
+    width: 300px;
+    height: 350px;  
+
+}
+
+.address-section{
+
+    text-align: left;
+    padding: 40px 40px 20px 0;
+
+}
+
+/* about me design ends here */
+
+/* contact design starts here */
+
+.contact-section{
+
+    padding-left: 150px;
+
+}
+
+.more-contact-section{
+
+    padding-right: 150px;
+
+}
+
+.more-contact-section h3{
+
+    margin-top: 0;
+
+}
+
+/* contact design starts here */

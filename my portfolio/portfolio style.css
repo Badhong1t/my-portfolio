@@ -1,0 +1,164 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header{
+
+    background-color: #4894b0;
+    padding: 20px;
+
+}
+
+.logo{
+
+    float: left;
+    margin-left: 50px;
+
+}
+
+.links{
+
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+
+h1{
+
+    float: left;
+    margin-left: 350px;
+    margin-top: 15px;
+    color: white;
+
+}
+
+header::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.header-container{
+
+    vertical-align: middle;
+
+}
+
+.links a{
+
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.sun{
+
+    float: right;
+    margin-right: 150px;
+    transition: transform 2s;
+
+}
+
+.sun::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.sun:hover{
+
+    transform: rotate(360deg);
+
+}
+
+h2{
+
+    text-align: center;
+    font-family: 'Fasthand';
+    font-size: 3rem;
+
+}
+
+p{
+
+    text-align: center;
+    color: gray;
+
+}
+
+.sun1{
+
+    margin-left: 150px;
+    transition: transform 2s;
+
+}
+
+.sun1:hover{
+
+    transform: rotate(-360deg);
+
+}
+
+.section-tutorial{
+
+    background-color: #757575;
+
+}
+
+.section-tutorial h3{
+
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline dotted white 5px;
+    text-underline-offset: 5px;
+
+}
+
+.cards{
+
+    width: 100%;
+    margin: 20px 100px;
+
+}
+
+.img-1{
+
+    position: relative;
+    width: 20%;
+    height: 300px;
+
+}
+
+.cards p{
+
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 1300px;
+    height: 50px;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+

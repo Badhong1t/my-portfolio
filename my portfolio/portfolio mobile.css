@@ -1,0 +1,891 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+[class*="col-"]{
+
+    float: left;
+
+}
+
+/* for mobile */
+[class*="col-"]{
+
+    width: 100%;
+    padding: 15px;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+ /* navbar design starts here */
+
+header{
+
+    background-color: #3fbfd9;
+    text-align: center;
+
+}
+
+.nav-heading{
+
+    padding: 20px auto 20px auto;
+
+}
+
+.nav-heading h1{
+
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+
+}
+
+.nav-links{
+
+    padding: 0 auto 20px auto;
+
+}
+
+.nav-links a{
+
+    text-decoration: none;
+    background-color: #0e6f82;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.nav-links a:hover{
+
+    background-color: gray;
+    color: black;
+
+}
+
+header::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* navbar design ends here */
+
+/* navbar description design starts here */
+
+.nav-desc{
+
+    position: relative;
+
+}
+
+/* upper-img design starts here */
+
+.nav-desc .upper-img{
+
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    text-align: right;
+
+}
+
+.upper-img img{
+
+
+    width: 120px;
+    transition: transform 3s;
+
+}
+
+.upper-img img:hover{
+
+    transform: rotate(360deg);
+
+}
+
+.upper-img::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* upper-img design ends here */
+
+/* my title design starts here */
+
+.my-title{
+
+  text-align: center; 
+  margin: 200px auto 20px auto;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.2rem;
+
+}
+
+.my-title::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* my title design starts here */
+
+/* description design starts here */
+
+.description{
+
+    text-align: center;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+
+}
+
+.description::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* description design ends here */
+
+/* lower-img design starts here */
+
+.nav-desc .lower-img{
+
+    margin-left: 40px;
+
+}
+
+.lower-img img{
+
+
+    width: 120px;
+    transition: transform 3s;
+
+}
+
+.lower-img img:hover{
+
+    transform: rotate(-360deg);
+
+}
+
+.lower-img::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.nav-desc::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* lower-img design ends here */
+
+/* navbar description design ends here */
+
+/* tutorials design starts here */
+
+h3{
+
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+
+}
+
+.dotted-hr{
+
+    border: 4px dotted white;
+    border-bottom: none;
+    width: 70px;
+    margin: 10px auto;
+
+}
+
+.tutorials-section{
+
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.tutorials-img img{
+
+    width: 100%;
+    height: 300px;
+
+}
+
+.tutorials-img{
+
+    position: relative;
+
+}
+
+.img1 div{
+
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+}
+
+.img2 div{
+
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+}
+
+.img3 div{
+
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+}
+
+.img4 div{
+
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 5%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+    padding: 50px 0 50px 0;
+
+}
+
+.tutorials-section::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* tutorials design ends here */
+
+/* About me design starts here */
+
+.about-me-section{
+
+    background-color: #309fab;
+    padding: 20px;
+
+
+}
+
+.my-photo img{
+
+    display: block;
+    width: 250px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 50px auto;
+
+}
+
+.address-section{
+
+    text-align: center;
+
+}
+
+.address-section p{
+
+    color: white;
+
+}
+
+.address-section .plain-hr{
+
+    margin: 15px auto;
+    border-top: 2px solid white;
+
+}
+
+.address-section p a{
+
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+button a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.address-section button{
+
+    background-color: #11292b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.about-me-section::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* about me design ends here */
+
+/* skillls design starts here */
+
+/* work experience design starts here */
+
+.skills-section{
+
+    padding: 20px;
+    text-align: center;
+
+}
+
+.work-skills{
+
+    background-color: gray;
+    height: 600px;
+    text-align: center;
+    margin: 50px auto;
+    padding-bottom: 10px;
+
+}
+
+.work-img{
+
+    padding: 15px;
+
+}
+
+.work-skills img{
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.work-skills h3{
+
+    background-color: #575959;
+    padding: 5px 0;
+
+}
+
+.work-skills ol{
+
+    margin: 10px 0 20px 40px;
+
+}
+
+ol .plain-hr{
+
+    margin: 10px 0;
+
+}
+
+.work-skills:hover{
+
+    box-shadow: 0 20px 30px 0 blue;
+
+}
+
+/* work experience design ends here */
+
+/* education design starts here */
+
+.education-skills{
+
+    background-color: gray;
+    height: 600px;
+    text-align: center;
+    margin: 50px auto;
+    padding-bottom: 10px;
+
+}
+
+.education-img{
+
+    padding: 15px;
+
+}
+
+.education-skills img{
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.education-skills h3{
+
+    background-color: #575959;
+    padding: 5px 0;
+
+}
+
+.education-skills ol{
+
+    margin: 10px 0 20px 40px;
+
+}
+
+ol .plain-hr{
+
+    margin: 10px 0;
+
+}
+
+.education-skills:hover{
+
+    box-shadow: 0 20px 30px 0 green;
+
+}
+
+/* education design ends here */
+
+/* progress bar design starts here */
+
+.skill-bar-section{
+
+    background-color: gray;
+    height: 600px;
+    margin: 50px auto;
+
+
+}
+
+.skill-img{
+
+    text-align: center;
+    padding: 15px;
+
+}
+
+.skill-img img{
+
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+
+}
+
+.skill-bar-section h3{
+
+    background-color: #575959;
+    padding: 5px 0;
+
+}
+
+.skill-bar-section ul{
+
+    list-style: inside;
+    padding: 20px 0 0 20px;
+
+}
+
+ul li{
+
+    list-style-type: none;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 10px 30px 20px;
+    width: 100%;
+    position: relative;
+
+}
+
+ul{
+
+    position: relative;
+    width: 90%;
+
+}
+
+ul li::before{
+
+    content: "";
+    background-color: #5e9af2;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    border-radius: 1000px;
+
+}
+
+ul li::after{
+
+    content: "";
+    background-color: #094296;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    border-radius: 1000px;
+
+}
+
+ul .html::after{
+
+    background-color: green;
+    width: 0;
+    animation: html 3s ease-in 1s infinite;
+
+}
+
+@keyframes html{
+
+    to{
+
+        width: 90%;
+
+    }
+
+}
+
+ul .css::after{
+
+    background-color: blue;
+    width: 0;
+    animation: css 3s ease-in 1s infinite;
+
+}
+
+@keyframes css{
+
+    to{
+
+        width: 50%;
+
+    }
+
+}
+
+ul .tailwind::after{
+
+    background-color: red;
+    width: 0;
+    animation: tailwind 3s ease-in 1s infinite;
+
+}
+
+@keyframes tailwind{
+
+    to{
+
+        width: 70%;
+
+    }
+
+}
+
+ul .javascript::after{
+
+    background-color: yellow;
+    width: 0;
+    animation: javascript 3s ease-in 1s infinite;
+
+}
+
+@keyframes javascript{
+
+    to{
+
+        width: 85%;
+
+    }
+
+}
+
+ul .react-js::after{
+
+    background-color: pink;
+    width: 0;
+    animation: react 3s ease-in 1s infinite;
+
+}
+
+@keyframes react{
+
+    to{
+
+        width: 97%;
+
+    }
+
+}
+
+ul .next-js::after{
+
+    background-color: #2c19a8;
+    width: 0;
+    animation: next 3s ease-in 1s infinite;
+
+}
+
+@keyframes next{
+
+    to{
+
+        width: 67%;
+
+    }
+
+}
+
+ul .c-programming::after{
+
+    background-color: #9e022b;
+    width: 0;
+    animation: c 3s ease-in 1s infinite;
+
+}
+
+@keyframes c{
+
+    to{
+
+        width: 87%;
+
+    }
+
+}
+
+ul .github::after{
+
+    background-color: #4d029e;
+    width: 0;
+    animation: github 3s ease-in 1s infinite;
+
+}
+
+@keyframes github{
+
+    to{
+
+        width: 77%;
+
+    }
+
+}
+
+.skill-bar-section:hover{
+
+    box-shadow: 0 20px 30px 0 red;
+
+}
+
+/* progress bar design ends here */
+
+.skills-section::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* skillls design ends here */
+
+/* contact design starts here */
+
+.contact-section{
+
+    background-color: #17c5d8;
+    text-align: center;
+    padding: 40px;
+
+}
+
+form input{
+
+    width: 500px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 10px auto;
+
+}
+
+form textarea{
+
+    width: 500px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 10px auto;
+    resize: none;
+
+}
+
+form button{
+
+    width: 100px;
+    background-color: #11292b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    cursor: pointer;
+
+
+}
+
+.more-contact-section h3{
+
+    margin-top: 20px;
+
+}
+
+.more-contact-section .icons{
+
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons button{
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px 5px;
+    cursor: pointer;
+
+}
+
+.contact-section::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* contact design ends here */
+
+/* footer design starts here */
+
+.footer-section{
+
+    background-color: black;
+    padding: 20px;
+
+}
+
+.footer-section .left-aside{
+
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.left-aside a{
+
+    margin: 0 10px 0 10px;
+
+}
+
+.right-aside{
+
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+
+}
+
+.footer-section::after{
+
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* footer design ends here */
